@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avaneesh Muddasani - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Custom futuristic sword cursor */
+      html {
+        cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="80" height="20" viewBox="0 0 80 20"><defs><linearGradient id="blade" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style="stop-color:%23999;stop-opacity:1" /><stop offset="50%" style="stop-color:%23ddd;stop-opacity:1" /><stop offset="100%" style="stop-color:%23999;stop-opacity:1" /></linearGradient></defs><path d="M 0 10 L 60 5 L 60 15 Z" fill="url(%23blade)" stroke="%23666" stroke-width="1"/><rect x="58" y="7" width="10" height="6" fill="%23444" stroke="%23222" stroke-width="1"/><circle cx="70" cy="10" r="3" fill="%23666"/></svg>') 10 10, auto;
+      }
+      a, button, input, textarea {
+        cursor: pointer;
+      }
+       /* Custom scrollbar for webkit browsers */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0a0a0a;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #4a4a4a;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #6a6a6a;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-black">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
